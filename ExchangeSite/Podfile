@@ -1,0 +1,17 @@
+platform :ios, '8.0'
+project '../ExchangeSite.xcodeproj'
+target 'ExchangeSite' do
+  use_frameworks!
+
+  pod 'Kingfisher'
+
+  pod 'Alamofire'
+
+  pod 'SwiftyJSON'
+
+  pod 'SnapKit', '~> 3.0.2'
+
+  pod 'RxSwift',    '~> 3.0'
+  pod 'RxCocoa',    '~> 3.0'
+
+end
